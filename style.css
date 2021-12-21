@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+	
+
+
+*{font-family: 'Raleway', sans-serif;}
+
+.container-fluid{margin: 0;padding:0;}
+
+body{background-image:url("images/wood.jpg");}
+h1{color:#ffffff;text-align: center;margin-top:30px;margin-bottom:30px; font-size: 60px;}
+h2{padding-bottom:20px;}
+h3{text-align:center;font-size:40px;}
+h4{font-size:30px;padding-top:20px; padding-bottom:10px;}
+
+ol{padding-left:20px;}
+li{padding-left:5px;}
+
+#Linzer{width:418px;
+		float:right;
+		position:relative;
+		right:28px;
+		top: -20px;}
+
+
+#Text{background-color:#FFFFFF;width:1260px; margin-bottom:30px;color:#707070;padding-top:20px; padding-bottom:20px;}
+#Text2{background-color:#FFFFFF;width:1260px; margin-bottom:30px;color:#707070;padding-top:20px; padding-bottom:20px;}
+#Commentbox{background-color:#FFFFFF;width:1260px;color:#707070; margin-top: 20px;margin-bottom: 20px;padding-top:30px; padding-bottom: 60px;}
+
+
+.navbar
+		{background-color:#FFFFFF;
+		color:#707070;
+		font-size: 15px;
+		padding-right:30px;}
+
+.navbar-light .navbar-nav .nav-link{
+	
+	display:flex;
+	justify-content: center;
+	
+	padding-left:90px;
+	padding-right:90px;}
+	
+
+
+/*Dropdown Navbar*/
+
+
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	}
+
+	/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #FFFFFF;
+	  min-width: 160px;
+	  box-shadow: 0px 15px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+		  left:79px;}
+
+	/* Links inside the dropdown */
+	.dropdown-content a {
+	  color: #707070;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+	/* Change color of dropdown links on hover */
+	.dropdown-content a:hover {background-color: #ddd;}
+
+	/* Show the dropdown menu on hover */
+	.dropdown:hover .dropdown-content {display: block;}
+
+	/* Change the background color of the dropdown button when the dropdown content is shown */
+	.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*End Dropdown Navbar*/
+
+
+
+
+
+
+
+.thumbnail{width:300px;margin-top: 20px;}
+.btn-block{background-color: #ffffff;color:#707070;}
+
+
+/*Commentbox*/
+
+.form-group{width: 600px;margin: 0 auto; color:#707070;} 
+
+#submit{position:relative;
+		left:760px;
+		background-color:#ffffff;
+		color:#707070;
+		border-radius: 5px;
+		padding:3px;}
+
+
+#submit:hover{background-color:#707070;color:#FFFFFF; padding:7px;}
+			
+/*End Commentbox*/
+
+
+		/*Foodbox'*/
+
+
+		*{box-sizing: border-box}
+
+		/* Container needed to position the overlay. Adjust the width as needed */
+
+
+		/* Make the image responsive */
+		.image {
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		}
+
+		/* The overlay effect - lays on top of the container and over the image */
+		.overlay {
+		  position: absolute; 
+		  bottom: 0; 
+		  background: rgb(0, 0, 0);
+		  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+		  color: #f1f1f1; 
+		  width: 92%;
+		  transition: .5s ease;
+		  opacity:0;
+		  font-size: 20px;
+		  padding: 20px;
+		  text-align: center;}
+
+		.overlay:hover{
+			text-decoration: none;
+			color:#ffffff;
+			font-size:23px;}
+
+		/* When you mouse over the container, fade in the overlay title */
+		.food:hover .overlay {
+		  opacity: 1;
+			margin-bottom: 15px;}
+
+
+		.col-sm-4{padding-bottom: 15px}
+		.card-deck{padding-left:35px;padding-bottom:20px;}
+		.map{height:550px;}
+	
+
+
+ footer{background-color: #ffffff;color:#707070;margin-top:50px;}
+
+
+
+
+
